@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+}
+
+::-webkit-scrollbar-track {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.index-enter-active,
+.index-leave-active {
+  transition: all 0.4s;
+}
+.index-enter-from,
+.index-leave-to {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s ease-in-out;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.router-link-active,
+.router-link-exact-active {
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
