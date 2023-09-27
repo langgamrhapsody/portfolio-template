@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@duskmoon/vue3-typed-js": "^0.0.4",
+    "@fancyapps/ui": "^5.0.22",
     "@heroicons/vue": "^2.0.18",
     "@nuxtjs/google-fonts": "^3.0.2",
     "nuxt-icon": "^0.5.0"

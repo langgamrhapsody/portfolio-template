@@ -1,7 +1,7 @@
 <template>
     <div class="flex max-h-screen overflow-hidden  relative">
         <div :class="isNavOpen ? 'left-0' : 'left-[-100%] xs:left-[-83.333333%] sm:left-[-66.666667%] lg:left-0'"
-            class="absolute z-[100] top-0 left-0 lg:relative w-full xs:w-10/12 sm:w-8/12 lg:w-[600px] h-full shadow-2xl transition-all ease-in-out duration-[700ms]">
+            class="absolute z-[100] top-0 left-0 lg:relative w-full xs:w-10/12 sm:w-8/12 lg:w-[600px] h-screen shadow-2xl transition-all ease-in-out duration-[700ms]">
             <div class="relative w-full h-full  bg-white lg:border-r border-[#e6e6e699]">
                 <div class=" w-full h-full flex flex-col justify-center items-center gap-5">
 

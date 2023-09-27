@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
   typescript: {
-    shim: false,
+    shim: true,
   },
   modules: ["nuxt-icon"],
   css: ["~/assets/css/main.css"],
