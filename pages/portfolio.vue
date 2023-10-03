@@ -24,7 +24,7 @@
                         class="group block relative overflow-hidden rounded-xl transition-all ease-in-out duration-300 hover:shadow-xl">
                         <div class="w-full h-full transition-all ease-in-out duration-300">
                             <img class="ratio-item property-card__img w-full h-auto group-hover:brightness-50 brightness-100 object-cover object-center transition-all  ease-in-out duration-300 grayscale group-hover:grayscale-0"
-                                :src="`_nuxt/assets/img/work/${work.img}`" :alt="work.name">
+                                :src="work.img" :alt="work.name">
                         </div>
                         <div
                             class="bg-white w-full absolute bottom-[-150px] p-4 transition-all ease-in-out duration-300 group-hover:bottom-[0] flex justify-between">
@@ -53,6 +53,9 @@
 <script setup >
 import { PlayIcon } from '@heroicons/vue/24/solid'
 import { filename } from 'pathe/utils'
+import aku from "@/assets/img/work/aku.png";
+import jomblo_inguh from "@/assets/img/work/jomblo_inguh.png";
+
 
 
 definePageMeta({
@@ -70,13 +73,13 @@ const workList = [{
     link: 'https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY',
     name: 'Aku',
     date: 'August 2023',
-    img: 'aku.png'
+    img: aku
 },
 {
     link: 'https://youtu.be/mYriDUKT3bk?si=sS8Y9RoUyrtFjiFm',
     name: 'Jomblo Inguh',
     date: 'September 2023',
-    img: 'jomblo_inguh.png'
+    img: jomblo_inguh
 
 },
 ]
