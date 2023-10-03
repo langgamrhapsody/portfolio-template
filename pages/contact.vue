@@ -1,12 +1,12 @@
 <template>
     <div>
         <PageLabel>Contact</PageLabel>
-        <div class="w-full flex flex-col gap-6 text-[#909090] py-10 px-0 sm:px-6 md:px-12 lg:px-6 xl:px-24 ">
+        <div class="w-full flex flex-col gap-6 text-[#909090] py-10 px-0 sm:px-6 md:px-12 lg:px-6 ">
             <div class="flex flex-col gap-4 w-full text-center justify-center items-center">
                 <h1 class="text-4xl md:text-5xl font-bold">Let's <span class="text-black">Talk</span></h1>
                 <p class=" max-w-sm">Feel free to get in touch with me and let me know what you're looking for</p>
             </div>
-            <div class="w-7/12 mx-auto shadow-2xl">
+            <div class=" w-full lg:w-10/12 xl:w-7/12 lg:mx-auto shadow-2xl">
                 <iframe class="w-full h-full aspect-video "
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126214.40561898882!2d115.1418722715959!3d-8.672504761542138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2sDenpasar%2C%20Denpasar%20City%2C%20Bali!5e0!3m2!1sen!2sid!4v1695734922976!5m2!1sen!2sid"
                     style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

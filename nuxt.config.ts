@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   typescript: {
     shim: true,
   },
-  modules: ["nuxt-icon"],
+  modules: ["nuxt-icon", "nuxt-headlessui"],
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
