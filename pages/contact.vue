@@ -13,7 +13,7 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 justify-center gap-10 mt-14 xs:px-10 sm:px-15 lg:px-25 w-full">
                 <!-- contact 1 -->
-                <a href="https://wa.me/62812345678" target="_blank"
+                <a href="https://wa.me/6282339820298" target="_blank"
                     class="rounded-lg border dark:border-primary p-7 flex flex-col justify-center items-center transition-all ease-in-out duration-[700ms] hover:bg-black hover:text-white hover:scale-[1.03]">
                     <div class="text-primary dark:text-primary-dark transition-colors-linier w-16 h-16 p-4">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -22,10 +22,10 @@
                                 d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z" />
                         </svg>
                     </div>
-                    <span class="sm:hidden xl:inline-block">+62 123-456-789</span>
+                    <span class="sm:hidden 2xl:inline-block">+62 823-3982-0298</span>
                 </a>
                 <!-- contact 2 -->
-                <a href="mailto:todhy@gmail.com" target="_blank"
+                <a href="mailto:todhymuryanto98@gmail.com" target="_blank"
                     class="rounded-lg border dark:border-primary p-7 flex flex-col justify-center items-center transition-all ease-in-out duration-[700ms] hover:bg-black hover:text-white hover:scale-[1.03]">
                     <div class="text-primary dark:text-primary-dark transition-colors-linier w-16 h-16 p-4">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -34,7 +34,7 @@
                                 d="M2 5.5V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V19h18V7.3l-8 7.2-10-9zM0 10h5v2H0v-2zm0 5h8v2H0v-2z" />
                         </svg>
                     </div>
-                    <span class="sm:hidden xl:inline-block">todhy@gmail.com</span>
+                    <span class="sm:hidden 2xl:inline-block">todhymuryanto98@gmail.com</span>
                 </a>
                 <!-- contact 3 -->
                 <form
@@ -51,7 +51,7 @@
                         </div>
                         <input type="hidden" name="saddr" value="" />
                         <input type="hidden" name="daddr" value="Denpasar, Denpasar City, Bali" />
-                        <span class="link-h sm:hidden xl:inline-block focus:outline-none">Denpasar, Bali, Indonesia</span>
+                        <span class="link-h sm:hidden 2xl:inline-block focus:outline-none">Denpasar, Bali, Indonesia</span>
                     </button>
                 </form>
             </div>

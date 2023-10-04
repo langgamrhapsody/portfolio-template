@@ -28,16 +28,22 @@
                         </div>
                         <div
                             class="bg-white w-full absolute bottom-[-150px] p-4 transition-all ease-in-out duration-300 group-hover:bottom-[0] flex justify-between">
-                            <div class="flex flex-col gap-1">
+                            <div class="flex flex-col gap-1 w-1/2">
                                 <p class="font-bold">{{ work.name }}</p>
                                 <p class="text-xs italic">genre</p>
                                 <p class="text-sm">{{ work.date }}</p>
                             </div>
-                            <div class="h-auto flex items-end">
+                            <div class="h-auto flex flex-col w-1/2 gap-2 items-center justify-center">
                                 <a :href="work.link" target="_blank"
-                                    class=" p-2 rounded-xl border text-sm flex gap-1 justify-center items-center hover:text-red-500 hover:border-red-500 transition-all ease-in-out duration-300">
-                                    <PlayIcon class="w-[14px] h-[14px]" /> Play on
+                                    class="w-full p-2 rounded-xl border text-sm flex  gap-2 justify-start items-center hover:text-red-500 hover:border-red-500 transition-all ease-in-out duration-300">
+                                    <PlayIcon class="w-[18px] h-[18px]" /> Play on
                                     Youtube
+                                </a>
+                                <a :href="work.spotify" target="_blank"
+                                    class="w-full p-2 rounded-xl border text-sm flex gap-2 justify-start items-center hover:text-green-500 hover:border-green-500 transition-all ease-in-out duration-300">
+                                    <Icon name="mdi:spotify" class="w-[18px] h-[18px]" />
+                                    Play on
+                                    spotify
                                 </a>
                             </div>
                         </div>
@@ -73,13 +79,15 @@ const workList = [{
     link: 'https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY',
     name: 'Aku',
     date: 'August 2023',
-    img: aku
+    img: aku,
+    spotify: 'https://open.spotify.com/track/0jJFe1Pk7KhzU6RoEsq3MO?si=a4f678608e42417f'
 },
 {
     link: 'https://youtu.be/mYriDUKT3bk?si=sS8Y9RoUyrtFjiFm',
     name: 'Jomblo Inguh',
     date: 'September 2023',
-    img: jomblo_inguh
+    img: jomblo_inguh,
+    spotify: 'https://open.spotify.com/track/0eU2ho7Y3HiOpXgpnkyLWS?si=f8cac47d62594a5a'
 
 },
 ]

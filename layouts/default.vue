@@ -7,11 +7,11 @@
 
                     <div class="w-full flex flex-col justify-center items-center">
                         <p class="font-raleway font-bold text-5xl underline italic">
-                            Todhy
+                            Todhy<span class="font-medium">98</span>
                         </p>
-                        <p class="font-raleway font-medium text-2xl  italic pl-5">
+                        <!-- <p class="font-raleway font-medium text-2xl  italic pl-5">
                             App
-                        </p>
+                        </p> -->
                     </div>
                     <div class="flex flex-col gap-2 justify-center items-center capitalize py-4 font-montserrat">
                         <NuxtLink @click="toggleNav" v-for="links in navLinks" :key="links.link" :to="links.link"
@@ -20,14 +20,26 @@
                         </NuxtLink>
                     </div>
                     <div class="flex gap-4 items-center justify-center">
-                        <a href="https://www.facebook.com/" class="hover:scale-110 transition-all ease-in-out">
+                        <a target="_blank" href="https://www.facebook.com/Todhy98"
+                            class="hover:scale-110 transition-all ease-in-out">
                             <Icon name="ic:outline-facebook" class="w-8 h-8" />
                         </a>
-                        <a href="https://www.instagram.com/" class="hover:scale-110 transition-all ease-in-out">
+                        <a target="_blank" href="https://www.instagram.com/70dhy98/"
+                            class="hover:scale-110 transition-all ease-in-out">
                             <Icon name="ri:instagram-fill" class="w-8 h-8" />
                         </a>
-                        <a href="https://www.youtube.com/" class="hover:scale-110 transition-all ease-in-out">
+                        <a target="_blank" href="https://www.youtube.com/@70dhy98"
+                            class="hover:scale-110 transition-all ease-in-out">
                             <Icon name="mdi:youtube" class="w-8 h-8" />
+                        </a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/artist/7j4bOR3QBncDsjuFs3EEcU?si=kGf0yGpxRBOvF8Dcfe2XRg"
+                            class="hover:scale-110 transition-all ease-in-out">
+                            <Icon name="mdi:spotify" class="w-8 h-8" />
+                        </a>
+                        <a target="_blank" href="https://www.tiktok.com/@todhy98"
+                            class="hover:scale-110 transition-all ease-in-out">
+                            <Icon name="ic:baseline-tiktok" class="w-8 h-8" />
                         </a>
                     </div>
                     <div class="italic font-light text-sm text-center py-4">
@@ -105,5 +117,4 @@ const navLinks = [{
 
 .rounded-3 {
     border-radius: 10px 0 0 0;
-}
-</style>
+}</style>
