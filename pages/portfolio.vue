@@ -29,7 +29,7 @@
                         <div
                             class="bg-white w-full absolute bottom-[-150px] p-4 transition-all ease-in-out duration-300 group-hover:bottom-[0] flex justify-between">
                             <div class="flex flex-col gap-1 w-1/2">
-                                <p class="font-bold">{{ work.name }}</p>
+                                <p class="font-bold text-base min-h-[3rem] overflow-ellipsis ">{{ work.name }}</p>
                                 <p class="text-xs italic">genre</p>
                                 <p class="text-sm">{{ work.date }}</p>
                             </div>
@@ -56,11 +56,11 @@
     </div>
 </template>
 
-<script setup >
+<script setup lang="ts" >
 import { PlayIcon } from '@heroicons/vue/24/solid'
 import { filename } from 'pathe/utils'
-import aku from "@/assets/img/work/aku.png";
-import jomblo_inguh from "@/assets/img/work/jomblo_inguh.png";
+import { aku, jomblo_inguh, air_mata_terakhir_untukmu } from '@/assets/img/work/index'
+
 
 
 
@@ -70,10 +70,7 @@ definePageMeta({
     }
 })
 
-const glob = import.meta.glob('@/assets/img/work/*.png', { eager: true })
-const images = Object.fromEntries(
-    Object.entries(glob).map(([key, value]) => [filename(key), value.default])
-)
+
 
 const workList = [{
     link: 'https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY',
@@ -90,7 +87,15 @@ const workList = [{
     spotify: 'https://open.spotify.com/track/0eU2ho7Y3HiOpXgpnkyLWS?si=f8cac47d62594a5a'
 
 },
+{
+    link: 'https://youtu.be/MovLWUYyNzg?si=7BgZCaDF6B4k0Bx0',
+    name: 'Air Mata Terakhir Untukmu',
+    date: 'Oktober 2023',
+    img: air_mata_terakhir_untukmu,
+    spotify: 'https://open.spotify.com/track/4FxqJAiFkb9eD8Nv4qqFSx?si=b87c11c765524d24'
+}
 ]
+
 
 const options = {
     Toolbar: {
