@@ -59,7 +59,7 @@
 <script setup lang="ts" >
 import { PlayIcon } from '@heroicons/vue/24/solid'
 import { filename } from 'pathe/utils'
-import { aku, jomblo_inguh, air_mata_terakhir_untukmu } from '@/assets/img/work/index'
+import { aku, jomblo_inguh, air_mata_terakhir_untukmu, rindu, dunia } from '@/assets/img/work/index'
 
 
 
@@ -80,7 +80,7 @@ const workList = [{
     spotify: 'https://open.spotify.com/track/0jJFe1Pk7KhzU6RoEsq3MO?si=a4f678608e42417f'
 },
 {
-    link: 'https://youtu.be/mYriDUKT3bk?si=sS8Y9RoUyrtFjiFm',
+    link: 'https://youtu.be/mGK-GEX_s-I?si=ULvAAbioyFz17VB4',
     name: 'Jomblo Inguh',
     date: 'September 2023',
     img: jomblo_inguh,
@@ -93,6 +93,20 @@ const workList = [{
     date: 'Oktober 2023',
     img: air_mata_terakhir_untukmu,
     spotify: 'https://open.spotify.com/track/4FxqJAiFkb9eD8Nv4qqFSx?si=b87c11c765524d24'
+},
+{
+    link: 'https://youtu.be/erVQCYFx_IQ?si=MX9gq8zkpIZqKaWQ',
+    name: '2 Dunia',
+    date: 'Desember 2023',
+    img: dunia,
+    spotify: 'https://open.spotify.com/track/6OrYRV13xYDSZFMjL9s7iF?si=EoIx51puSaeLCcJm7ijZkg'
+},
+{
+    link: 'https://youtu.be/OfpDoDSk31s?si=hM2CfNwtODBud94R',
+    name: 'Rindu',
+    date: 'Desember 2023',
+    img: rindu,
+    spotify: 'https://open.spotify.com/track/7Fi29K8mLlqecYZuXhUuIJ?si=2ST4moE2QnKN4_J77nSi7A'
 }
 ]
 
